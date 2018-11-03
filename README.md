@@ -1,11 +1,19 @@
 # rb-calculator
 
 ## Notes
-The calculator allows the user to evaluate formulas involving floating-point values and the usual arithmetic operations, as well as to set and reference variables that can hold the results of these calculations. The interprreter reads the input stream and breaks the input into tokens, and then an evaluator (a recursive-descent parser) parses the token stream according to the grammar and evaluates the calculator statements. When an unexpected token is found, the program prints a message with the expected token(s) and stops parsing the statement.
+The calculator allows the user
+- to evaluate formulas involving floating-point values and the usual arithmetic operations
+- to set and reference variables that can hold the results of these calculations
+
+The interpreter reads the input stream and breaks the input into tokens, and then an evaluator (a recursive-descent parser) parses the token stream according to the grammar and evaluates the calculator statements.
+
+When an unexpected token is found, the program prints a message with the expected token(s) and stops parsing the statement.
 
 
 ## Grammar
-The following grammar is used to specify the calculator program. The language also supports empty statement and multiple statements on an input line separated by semicolons.
+The following grammar is used to specify the calculator program.
+
+The language also supports empty statement and multiple statements on an input line separated by semicolons.
 
 ```
 <program> ::= <statement> | <program> <statement> 
