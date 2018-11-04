@@ -79,4 +79,4 @@ ERROR | anything else
 
 
 ## Acknowledgement
-Project idea and specifications are given by Hal Perkins (from *Programming Langauges & Implementation*) at University of Washington.
+Project ideas and specifications are given by Hal Perkins (from his *Programming Langauges & Implementation* course) at the University of Washington.
